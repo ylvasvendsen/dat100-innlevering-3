@@ -80,6 +80,7 @@ public class TestBlogg {
 		assertFalse(samling.ledigPlass());
 
 
+
 		samling.utvid();
 		
 		assertTrue(samling.finnes(innlegg1));
