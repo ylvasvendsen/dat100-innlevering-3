@@ -5,28 +5,30 @@ import no.hvl.dat100.oppgave1.*;
 
 public class Tekst extends Innlegg {
 
-	// TODO: objektvariable 
-	
+    String tekst = "Roten av 2 er irrasjonalt.";
+
 	public Tekst () {
+        System.out.println()
 		
 	}
 	
 	public Tekst(int id, String bruker, String dato, String tekst) {
-		throw new UnsupportedOperationException(TODO.constructor("Tekst"));
-	}
-	
-	public Tekst(int id, String bruker, String dato, int likes, String tekst) {
-		throw new UnsupportedOperationException(TODO.constructor("Tekst"));
-	}
+        this.id = id;
+        this.bruker = bruker;
+        this.dato = dato;
+        this.tekst = tekst;
+    }
+
+
 	
 	public String getTekst() {
-		throw new UnsupportedOperationException(TODO.method());
+		return tekst;
 
 	}
 
 	public void setTekst(String tekst) {
-		throw new UnsupportedOperationException(TODO.method());
-	}
+        this.tekst = tekst;
+    }
 
 	@Override
 	public String toString() {
