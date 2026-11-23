@@ -59,6 +59,7 @@ public class Blogg {
 	}
 
 	// valgfrie oppgaver nedenfor
+
 	
 	public void utvid() {
 		throw new UnsupportedOperationException(TODO.method());

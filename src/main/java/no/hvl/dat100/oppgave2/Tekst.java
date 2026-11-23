@@ -26,6 +26,8 @@ public class Tekst extends Innlegg {
 
 	}
 
+
+
 	public void setTekst(String tekst) {
         this.tekst = tekst;
     }

@@ -78,7 +78,8 @@ public class TestBlogg {
 		
 		assertEquals(samling.getAntall(),2);
 		assertFalse(samling.ledigPlass());
-		
+
+
 		samling.utvid();
 		
 		assertTrue(samling.finnes(innlegg1));
