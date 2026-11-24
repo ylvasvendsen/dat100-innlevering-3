@@ -7,10 +7,6 @@ public class Tekst extends Innlegg {
 
     String tekst = "Roten av 2 er irrasjonalt.";
 
-	public Tekst () {
-        System.out.println()
-		
-	}
 	
 	public Tekst(int id, String bruker, String dato, String tekst) {
         this.id = id;
@@ -23,11 +19,7 @@ public class Tekst extends Innlegg {
 	
 	public String getTekst() {
 		return tekst;
-
 	}
-
-
-
 
 	public void setTekst(String tekst) {
         this.tekst = tekst;
@@ -35,7 +27,7 @@ public class Tekst extends Innlegg {
 
 	@Override
 	public String toString() {
-		throw new UnsupportedOperationException(TODO.method());
+        return "Tekst\n" + tekst + "\n" + id + "\n";
 
 	}
 	

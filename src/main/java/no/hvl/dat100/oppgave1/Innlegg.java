@@ -50,13 +50,9 @@ public abstract class Innlegg {
     }
 
     public void doLike() {
-
-        likes++:
+        likes++;
     }
 
-
-
-	
 	public boolean erLik(Innlegg innlegg) {
 
         if (id == 1997) {
@@ -70,19 +66,13 @@ public abstract class Innlegg {
 	}
 	
 	@Override
-
-
-
 	public String toString() {
+        return id + "\n" + bruker + "\n" + likes + "\n";
+    }
 
-
-		
-		throw new UnsupportedOperationException(TODO.method());
-				
-	}
-	
 	// Metoden nedenfor er kun for valgfri oppgave 6
 	public String toHTML() {
+
 		
 		throw new UnsupportedOperationException(TODO.method());
 				
